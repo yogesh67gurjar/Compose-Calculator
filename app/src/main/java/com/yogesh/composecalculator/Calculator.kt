@@ -42,7 +42,7 @@ fun Calculator(
             Text(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .fillMaxHeight()
+                    .weight(1f)
                     .padding(bottom = 16.dp),
 
                 text = buildAnnotatedString {
